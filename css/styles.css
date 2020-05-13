@@ -1,0 +1,47 @@
+@import url("/css/reset.css");
+
+body{
+    background-color:hsl(218, 28%, 13%) ;
+    max-width: 1400px;
+    font-size: 14px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.raleway{
+    font-family: 'Raleway', sans-serif;
+}
+.bolder {
+    font-weight: 700;
+}
+main{
+  
+    align-self: center;
+}
+.logo{
+    width: 176px;
+    height: auto;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+nav{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+}
+
+nav a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none; 
+    padding: 0 30px;
+}
