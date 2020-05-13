@@ -2,13 +2,19 @@
 
 body{
     background-color:hsl(218, 28%, 13%) ;
-    max-width: 1400px;
     font-size: 14px;
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+   display: flex;
+   justify-content: center;
+}
+.conainer{
+    min-width: 375px;
+    max-width: 1400px;
     display: flex;
     flex-flow: column nowrap;
+    align-content: center;
 }
 .raleway{
     font-family: 'Raleway', sans-serif;
@@ -16,32 +22,46 @@ body{
 .bolder {
     font-weight: 700;
 }
-main{
-  
-    align-self: center;
+.color{
+    color: white;
 }
-.logo{
-    width: 176px;
-    height: auto;
+.nodecoration{
+    text-decoration: none; 
+}
 
-}
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 5vh;
 }
 
 nav{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: flex-end;
-    
 }
 
 nav a{
-    color: white;
-    font-weight: 700;
-    text-decoration: none; 
     padding: 0 30px;
+}
+
+.main-img{
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    background: url("/images/illustration-intro.png") 50% 10% no-repeat;
+    background-size: 40%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    width: 16vw;
+    height: 7vh;
+    align-self: center;
+    border-radius: 25px;
+    border:none
 }
